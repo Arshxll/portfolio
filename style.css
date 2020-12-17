@@ -1,0 +1,260 @@
+body {
+  background: #e6f2ff;
+  overflow-x: hidden;
+  bottom: 0%;
+}
+ul {
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+section{
+	width:100%;
+	height:30vh;
+	background-size:cover;
+}
+nav {
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	height:60px;
+	background-color: #FFFFF;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	padding:0px 5%;
+}
+nav ul {
+	display: flex;
+}
+nav ul li a {
+	margin: 30px;
+	font-family: myriad pro regular;
+	color: #505050;
+	font-size:15px;
+	font-weight: 700;
+}
+.birds {
+	animation: move 10s infinite linear;
+	position: relative;
+	height: 10px;
+	margin-top: -100px;
+	margin-bottom: -100px;
+	width: 10px;
+}
+.birds:before {
+	content: '';
+
+}
+.birds:after {
+	content: '';
+}
+@keyframes move 
+{ 
+0% {
+	transform: translate(0);
+	
+}
+50% 
+{
+	transform: translate(50px);
+	
+}
+100%
+ {
+	transform: translate(100px);
+	
+}
+}
+	
+.ground {
+  background: #9db56d;
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.hill1 {
+  background: #9db56d;
+  width: 330px;
+  height: 230px;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 145px;
+  left: 7%;
+}
+.hill2 {
+  background: #466e61;
+  width: 400px;
+  height: 300px;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 110px;
+  right: 7%;
+}
+.tree {
+  height: 150px;
+  width: 150px;
+  background-color: #6a976c;
+  border-radius: 100%;
+}
+.trunk {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 10px 212px 10px;
+  border-color: transparent transparent #374544 transparent;
+  margin-top: 54px;
+  margin-left: 65px;
+}
+.leftbranch {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 3px 60px 3px;
+  border-color: transparent transparent #374544 transparent;
+  transform: rotate(-50deg);
+  position: absolute;
+  margin-top: 12.5px;
+  margin-left: -25px;
+}
+.rightbranch {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 2px 35px 2px;
+  border-color: transparent transparent #374544 transparent;
+  transform: rotate(36deg);
+  position: absolute;
+  margin-top: 4px;
+  margin-left: 9px;
+}
+.tree1 {
+  position: absolute;
+  bottom: 180px;
+  left: 11%;
+}
+
+.tree3 {
+  position: absolute;
+  bottom: 185px;
+  right: 11.5%;
+}
+.button {
+  background-color: #cc6600;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {
+  background-color: #cc6600;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button2 {
+  background-color:#cc6600;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button3 {
+  background-color: #cc6600;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* Learning Task 5.1 CSS*/
+.svg{
+    background: #ffe6e6;
+    width: 200px;
+    height: 300px;
+    display:inline-block;
+    position: relative;
+}
+/* Learning Task 6.1 */
+.object{
+  font-family: Times new roman;
+	height:900px;
+  width:780px;
+  float: center;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+/* Learning Task 6.2 */
+.obj {
+	width: 300px;
+	height: 300px;
+	animation: hideshow 10s 1.5s ease infinite;
+	display: inline-block;
+	position: relative;
+
+}
+@keyframes hideshow{
+	 0% { opacity: 1; }
+  10% { opacity: 1; }
+  15% { opacity: 0; }
+  100% { opacity: 0; }
+}
+.name {
+	height: 500px;
+	margin-top: -100px;
+	margin-bottom: -100px;
+	margin-left: 250px;
+	width: 50%;
+	animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.footer {
+	display:block;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #cc6600;
+   color: white;
+   text-align: center;
+}
