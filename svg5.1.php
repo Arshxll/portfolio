@@ -5,6 +5,15 @@
 	<meta http-equiv="X-UA-compatible" content="ie-edge">
 	<title> SVG </title>
 	<link rel="stylesheet" href="style.css">
+	
+	<section>
+		<nav>
+		<ul>
+		<li><a href="index.php"> HOME </a></li>
+		<li><a href="css.php"> CSS </a></li>
+		<li><a href="svg.php"> SVG </a></li>
+		<li><a href="canvas.php"> CANVAS </a></li>
+		<li><a href="author.php"> ABOUT THE AUTHOR </a></li>
 <svg class="svg">
 	<svg>
 		<ellipse ry="60" rx="66.5" id="svg_2" cy="145.85714" cx="105.35714" stroke-width="1.5" stroke="#000" fill="#aaffaa"/>
