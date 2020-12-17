@@ -15,12 +15,12 @@
 		<li><a href="css.php"> CSS </a></li>
 		<li><a href="svg.php"> SVG </a></li>
 		<li><a href="canvas.php"> CANVAS </a></li>
-		<li><a href="author.php"> ABOUT THE AUTHOR </a></li>
+		<li><a href="author.php"> ABOUT  </a></li>
 		
 		</section>
 		
-		<h1> MODULE 6 </h1>
-		<h2> Learning Task 6.2 </h2>
+		<center><h1> MODULE 6 </h1>
+			<h2> Learning Task 6.2 </h2> </center>
 		
 <body>
 <svg class="obj">
