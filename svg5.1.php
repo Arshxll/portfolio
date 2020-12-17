@@ -14,6 +14,7 @@
 		<li><a href="svg.php"> SVG </a></li>
 		<li><a href="canvas.php"> CANVAS </a></li>
 		<li><a href="author.php"> ABOUT THE AUTHOR </a></li>
+			</section>
 <svg class="svg">
 	<svg>
 		<ellipse ry="60" rx="66.5" id="svg_2" cy="145.85714" cx="105.35714" stroke-width="1.5" stroke="#000" fill="#aaffaa"/>
