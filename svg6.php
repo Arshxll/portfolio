@@ -15,11 +15,11 @@
 		<li><a href="css.php"> CSS </a></li>
 		<li><a href="svg.php"> SVG </a></li>
 		<li><a href="canvas.php"> CANVAS </a></li>
-		<li><a href="author.php"> ABOUT THE AUTHOR </a></li>
+		<li><a href="author.php"> ABOUT </a></li>
 		
 		</section>
-		<h1> MODULE 6 </h1>
-		<h2> Learning Task 6.1 </h2>
+		 <center> <h1> MODULE 6 </h1>
+			 <h2> Learning Task 6.1 </h2> </center>
 
 <svg class="object" width="900" height="780" style="outline: 0px solid black; font-size: 9; overflow: visible;">  
   <text x="1" y="30" >I can do all things through Christ who strengthens me.</text>  
